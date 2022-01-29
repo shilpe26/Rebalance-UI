@@ -1,0 +1,32 @@
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Merriweather', serif;
+    margin: auto;
+}
+:root{
+    --primary-color: #6976D9;
+    --secondary-color: #fff ;
+    --hover-color: #EDEFFF;
+    --text-color: #495057;
+    --hover-aside: #DFDCF8;
+    --danger-color:#F45449;
+    --success-color:#5CB660;
+    --warning-color:#ffc107;
+    --pink-badge: #E71A93;
+    --btn-primary-color:#0069d9;
+    --primary-hover:#5a8ec7;
+    --btn-secondary-color:#6c757d;
+    --secondary-hover: #889199;
+    --success-hover:#7ac57e;
+    --danger-color: #dc3545;
+    --danger-hover:#e65f6c;
+    --warning-hover:#FEB244;
+    --info-color:#17a2b8;
+    --info-hover:#51ccdf;
+    --bestseller-badge:#8C14E7;
+    --card-text-color:#6200EE;
+    --card-sub-text:#9D9D9D;
+    
+}
