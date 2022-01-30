@@ -1,0 +1,77 @@
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: .25rem;
+    width: 54rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+}
+
+.alert-primary {
+    color: var(--primary-color);
+    background-color: var(--alert-primary);
+    border-color: var(--alert-hover);
+}
+
+.alert-secondary {
+    color: var(--text-color);
+    background-color: var(--alert-secondary);
+    border-color: var(--alert-sec-hover);
+}
+
+.alert-success {
+    color: var(--success-color);
+    background-color: var(--alert-success);
+    border-color: var(--alert-success-hover);
+}
+
+.alert-danger {
+    color: var(--danger-color);
+    background-color: var(--alert-danger);
+    border-color: var(--alert-danger-hover);
+}
+
+.alert-warning {
+    color: var(--warning-color);
+    background-color: var(--alert-warning);
+    border-color: var(--alert-warning-hover);
+}
+
+.alert-box {
+    flex-direction: column;
+}
+
+#avatar-iframe4 {
+    height: 55rem;
+}
+
+.outline-primary {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: white;
+}
+
+/* outline variant */
+.outline-error {
+    border: 1px solid var(--danger-color);
+    color: var(--danger-color);
+    background-color: white;
+}
+
+.outline-success {
+    border: 1px solid var(--success-color);
+    color: var(--success-color);
+    background-color: white;
+}
+
+.outline-warning {
+    border: 1px solid var(--warning-color);
+    color: var(--warning-color);
+    background-color: white;
+}
