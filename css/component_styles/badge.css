@@ -1,0 +1,55 @@
+/* Badge CSS */
+.badge {
+    position: relative;
+    width: max-content;
+}
+
+.badge>div {
+    bottom: 5px;
+    right: 10px;
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: var(--success-color);
+}
+
+/* Blue Badge */
+.badge .blue-badge {
+    background-color: var(--primary-color);
+}
+
+/* Green Badge */
+.badge .green-badge {
+    background-color: var(--success-color);
+}
+
+/* Orange Badge */
+.badge .orange-badge {
+    background-color: var(--warning-color);
+}
+
+/* Pink Badge */
+.badge .pink-badge {
+    background-color: var(--pink-badge);
+}
+
+#avatar-iframe5 {
+    height: 48rem;
+}
+
+.badge .badge-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    right: 8px;
+    position: absolute;
+    font-size: 1rem;
+    color: white;
+    font-weight: 900;
+    height: 18px;
+    width: 18px;
+    border: none;
+}
