@@ -5,6 +5,9 @@ body {
     font-family: 'Merriweather', serif;
     margin: auto;
 }
+h2{
+    font-size: 2.5rem;
+}
 :root{
     --primary-color: #6976D9;
     --secondary-color: #fff ;

@@ -1,0 +1,144 @@
+/* button css */
+.btn {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-right: 2rem;
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: var(--btn-primary-color);
+    border-color: var(--primary-hover);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
+.btn-space{
+    margin-bottom: 1rem;
+}
+
+/* Secondary Button */
+.btn-secondary {
+    color: #fff;
+    background-color: var(--btn-secondary-color);
+    border-color: var(--secondary-hover);
+}
+
+.btn-secondary:hover {
+    background-color: var(--secondary-hover);
+    color: black;
+}
+
+/* Success Button */
+.btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-hover);
+}
+
+.btn-success:hover {
+    background-color: var(--success-hover);
+    color: black;
+}
+
+/* Danger Button */
+.btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-hover);
+}
+
+.btn-danger:hover {
+    background-color: var(--danger-hover);
+    color: black;
+}
+
+/* Warning Button */
+.btn-warning {
+    background-color: var(--warning-color);
+    border-color: var(--warning-hover);
+}
+
+.btn-warning:hover {
+    background-color: var(--warning-hover);
+    color: black;
+}
+
+/* Info Button */
+.btn-info {
+    background-color: var(--info-color);
+    border-color: var(--info-hover);
+}
+
+.btn-info:hover {
+    background-color: var(--info-hover);
+    color: black;
+}
+
+.simple-btn-frame {
+    height: 34rem;
+}
+
+/* Link Button */
+.btn-link {
+    background-color: var(--btn-primary-color);
+}
+
+.btn-link:hover {
+    background-color: var(--primary-hover);
+    color: black;
+}
+
+.link-btn-frame {
+    height: 21rem;
+}
+
+/* Icon Button */
+.button-icon {
+    background-color: var(--btn-primary-color);
+    margin-top: 5px;
+}
+
+.button-icon:hover {
+    background-color: var(--primary-hover);
+    color: black;
+}
+
+.icon-btn-name{
+    padding: 1rem;
+}
+
+.icon-btn-frame {
+    height: 36rem;
+}
+
+/* Floating Point Button */
+
+.floating-btn {
+    width: 9rem;
+    height: 9rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    box-shadow: 0 6px 10px 0 #666;
+    font-size: 3rem;
+    line-height: 6.1rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.floating-btn:hover {
+    box-shadow: 0 6px 14px 0 #666;
+    transform: scale(1.05);
+}
+
+.float-btn-frame {
+    height: 21rem;
+}
