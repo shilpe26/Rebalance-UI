@@ -10,6 +10,15 @@
     font-size: 2rem;
     height: 40rem;
     overflow-y: auto;
+    background-color: var(--hover-color);
+}
+
+.aside-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.aside-nav {
+    scrollbar-width: none;
 }
 
 .aside-link.aside-active-item {
