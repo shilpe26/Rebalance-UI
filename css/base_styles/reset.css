@@ -28,5 +28,15 @@ body {
     --bestseller-badge:#8C14E7;
     --card-text-color:#6200EE;
     --card-sub-text:#9D9D9D;
-    
+    --alert-primary:#cce5ff;
+    --alert-hover:#b8daff;
+    --alert-secondary:#e2e3e5;
+    --alert-sec-hover:#d6d8db;
+    --alert-success:#d4edda;
+    --alert-success-hover:#c3e6cb;
+    --alert-danger:#f8d7da;
+    --alert-danger-hover: #f5c6cb;
+    --alert-warning: #fff3cd;
+    --alert-warning-hover: #ffeeba;
+
 }
