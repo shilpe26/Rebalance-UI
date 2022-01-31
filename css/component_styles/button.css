@@ -24,8 +24,7 @@
 .btn-primary:hover {
     background-color: var(--primary-hover);
 }
-
-.space-ht {
+.btn-space{
     margin-bottom: 1rem;
 }
 
@@ -85,7 +84,7 @@
     color: black;
 }
 
-#avatar-iframe5 {
+.simple-btn-frame {
     height: 34rem;
 }
 
@@ -99,14 +98,14 @@
     color: black;
 }
 
-#avatar-iframe6 {
+.link-btn-frame {
     height: 21rem;
 }
 
 /* Icon Button */
 .button-icon {
     background-color: var(--btn-primary-color);
-    padding: 1rem;
+    margin-top: 5px;
 }
 
 .button-icon:hover {
@@ -114,11 +113,11 @@
     color: black;
 }
 
-span {
+.icon-btn-name{
     padding: 1rem;
 }
 
-#avatar-iframe7 {
+.icon-btn-frame {
     height: 36rem;
 }
 
@@ -140,6 +139,6 @@ span {
     transform: scale(1.05);
 }
 
-#avatar-iframe8 {
+.float-btn-frame {
     height: 21rem;
 }

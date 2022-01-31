@@ -8,12 +8,7 @@
     <!-- Icon link -->
     <link rel="icon" href="../assets/icon.png">
     <!-- css style links -->
-    <link rel="stylesheet" href="../css/base_styles/reset.css">
-    <link rel="stylesheet" href="../css/base_styles/home.css">
-    <link rel="stylesheet" href="../css/component_styles/badge.css">
-    <link rel="stylesheet" href="../css/component_styles/alert.css">
-    <link rel="stylesheet" href="../css/base_styles/introduction.css">
-    <link rel="stylesheet" href="../css/base_styles/media.css">
+    <link rel="stylesheet" href="../css/component_styles/badge_component.css">
 
     <!-- title -->
     <title>Badge</title>
@@ -25,6 +20,7 @@
 
 <body>
     <!-- navbar-section -->
+    <header>
     <nav class="navigation">
         <div class="nav-brand"><a class="link" href="/index.html">Rebalance-UI</a></div>
         <ul class="non-bullet">
@@ -32,6 +28,7 @@
             <li class="list-tem-inline"><a class="link" href="./avatar.html">Docs</a></li>
         </ul>
     </nav>
+    </header>
 
     <!-- side-list bar -->
     <div class="aside-container">
@@ -107,14 +104,14 @@
                     </div>
                 </div>
                 <div class="iframe-container">
-                    <iframe class="iframe" id="avatar-iframe5" title="myFrame"
+                    <iframe class="iframe badge-frame" title="myFrame"
                         src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252Fassets%252Fimg_avatar.png%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522blue-badge%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252Fassets%252Fimg_avatar2.png%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522green-badge%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252Fassets%252Favatar6.png%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522orange-badge%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
 
                 <!-- Badge on Icons -->
-                <h1>Badge on Icons</h1>
+                <h2>Badge on Icons</h2>
                 <p class="avatar-text">The badges appear as small dots over the logo of an app on a user's home screen
                     and can be designed
                     in a wide range of eye-catching colors.</p>
@@ -135,7 +132,7 @@
                         </div>
                     </div>
                     <div class="iframe-container">
-                        <iframe class="iframe" id="avatar-iframe5" title="myFrame"
+                        <iframe class="iframe badge-frame" title="myFrame"
                             src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252Fassets%252Freward.png%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-number%2520blue-badge%2522%253E1%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252Fassets%252Fnew.png%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-number%2520orange-badge%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252Fassets%252Finstagram.png%2522%253E%250A%2520%253Cdiv%2520class%253D%2522badge-number%2520pink-badge%2522%253E7%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>

@@ -120,11 +120,11 @@ a {
     font-size: 3rem;
 }
 
-#avatar-iframe1 {
+.avatar-iframe {
     height: 26rem;
 }
 
-#avatar-iframe2 {
+.avatar-iframe2 {
     height: 35rem;
 }
 

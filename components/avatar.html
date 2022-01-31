@@ -8,10 +8,7 @@
     <!-- Icon link -->
     <link rel="icon" href="../assets/icon.png">
     <!-- css style links -->
-    <link rel="stylesheet" href="../css/base_styles/reset.css">
-    <link rel="stylesheet" href="../css/base_styles/home.css">
-    <link rel="stylesheet" href="../css/base_styles/introduction.css">
-    <link rel="stylesheet" href="../css/base_styles/media.css">
+    <link rel="stylesheet" href="../css/component_styles/avatar_component.css">
 
     <!-- Font Awesome link -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
@@ -22,6 +19,7 @@
 
 <body>
     <!-- navbar-section -->
+    <header>
     <nav class="navigation">
         <div class="nav-brand"><a class="link" href="/index.html">Rebalance-UI</a></div>
         <ul class="non-bullet">
@@ -29,6 +27,7 @@
             <li class="list-tem-inline"><a class="link" href="./avatar.html">Docs</a></li>
         </ul>
     </nav>
+    </header>
 
     <!-- side-list bar -->
     <div class="aside-container">
@@ -89,21 +88,21 @@
                 icon.
             </p>
             <div class="main-container">
-                <h1>Usage</h1>
+                <h2>Usage</h2>
                 <div class="avatar-container">
                     <img class="avatar" src="https://bit.ly/dan-abramov" alt="Dan Abrahmov" />
                     <img class="avatar" src="https://bit.ly/code-beast" alt="Christian Nwamba" />
                     <img class="avatar" src="https://bit.ly/ryan-florence" alt="Ryan Florence" />
                 </div>
                 <div class="iframe-container">
-                    <iframe class="iframe" id="avatar-iframe1" title="myFrame"
+                    <iframe class="iframe avatar-iframe" title="myFrame"
                         src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fdan-abramov%2522%2520alt%253D%2522Dan%2520Abrahmov%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fcode-beast%2522%2520alt%253D%2522Christian%2520Nwamba%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fryan-florence%2522%2520alt%253D%2522Ryan%2520Florence%2522%2520%252F%253E"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
                 <!-- <div class="divider"></div> -->
                 <!-- Avatar Sizes -->
-                <h1>Avatar Sizes</h1>
+                <h2>Avatar Sizes</h2>
                 <p class="avatar-text">
                     The <span>Avatar</span> component comes in 7 sizes.
                 </p>
@@ -117,26 +116,11 @@
                     <img class="avatar xxl" src="https://bit.ly/ryan-florence" alt="Kola Tioluwani" />
                 </div>
                 <div class="iframe-container">
-                    <iframe class="iframe" id="avatar-iframe2" title="myFrame"
+                    <iframe class="iframe avatar-iframe2" title="myFrame"
                         src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522avatar%2520xxs%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fdan-abramov%2522%2520alt%253D%2522Dan%2520Abrahmov%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520xs%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fkent-c-dodds%2522%2520alt%253D%2522Kent%2520Dodds%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520sm%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fryan-florence%2522%2520alt%253D%2522Ryan%2520Florence%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520md%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fcode-beast%2522%2520alt%253D%2522Christian%2520Nwamba%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520l%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fsage-adebayo%2522%2520alt%253D%2522Segun%2520Adebayo%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520xl%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fprosper-baba%2522%2520alt%253D%2522Prosper%2520Otemuyiwa%2522%2520%252F%253E%250A%253Cimg%2520class%253D%2522avatar%2520xxl%2522%2520src%253D%2522https%253A%252F%252Fbit.ly%252Fryan-florence%2522%2520alt%253D%2522Kola%2520Tioluwani%2522%2520%252F%253E"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
-                <!-- <div class="divider"></div> -->
-                <!-- Avatar with badge -->
-                <!-- <h1>Avatar with badge</h1>
-                <p class="avatar-text">
-                    In some products, you might need to show a badge on the right corner of the avatar. We call this a
-                    badge. Here's an example that shows if the user is online:
-                </p>
-                <div class="avatar-container">
-                    <div class="item">
-                        <span class="notify-badge"></span>
-                        <img src="../assets/img_avatar.png" alt="Avatar" class="avatar">
-                        <span class="notify-badge2"></span>
-                        <img src="../assets/img_avatar2.png" alt="Avatar" class="avatar">
-                    </div>
-                </div> -->
 
                 <!-- Footer -->
                 <footer>
