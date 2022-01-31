@@ -35,7 +35,7 @@
     background-color: var(--pink-badge);
 }
 
-#avatar-iframe5 {
+.badge-frame {
     height: 48rem;
 }
 
