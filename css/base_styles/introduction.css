@@ -6,10 +6,19 @@
 
 .aside-nav {
     padding: 2.5rem;
-    width: 20rem;
+    width: 16%;
     font-size: 2rem;
     height: 40rem;
     overflow-y: auto;
+    background-color: var(--hover-color);
+}
+
+.aside-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.aside-nav {
+    scrollbar-width: none;
 }
 
 .aside-link.aside-active-item {
@@ -55,7 +64,8 @@ a {
     justify-content: flex-start;
     flex-grow: 1;
     padding: 5rem;
-    margin-top: -3rem;
+    margin-top: -2rem;
+    width: 70%;
 }
 
 .avatar-heading {
@@ -83,8 +93,7 @@ a {
 .avatar-text {
     font-size: 1.8rem;
     padding: 1rem;
-    margin-top: -1rem;
-    width: 85rem;
+    width: 100%;
 }
 
 .avatar-text span {
@@ -128,8 +137,7 @@ a {
     border: 0px;
     transform: scale(1);
     overflow: hidden;
-    width: 85rem;
-    height: 20rem;
+    width: 100%;
 }
 
 /* avatar sizes */
@@ -213,4 +221,35 @@ a {
     width: 1.25em;
     height: 1.25em;
     background: blue;
+}
+
+/* Footer */
+.next,
+.prev {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    color: var(--primary-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+    padding: 0.5rem;
+}
+
+.prev:hover,
+.next:hover {
+    color: black;
 }
