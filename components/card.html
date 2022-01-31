@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon link -->
+    <link rel="icon" href="../assets/icon.png">
+    <!-- css style links -->
+    <link rel="stylesheet" href="../css/component_styles/card_component.css">
+
+    <!-- title -->
+    <title>Card</title>
+
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- navbar-section -->
+    <header>
+        <nav class="navigation">
+            <div class="nav-brand"><a class="link" href="/index.html">Rebalance-UI</a></div>
+            <ul class="non-bullet">
+                <li class="list-tem-inline"><a class="link link-active" href="/index.html">Home</a></li>
+                <li class="list-tem-inline"><a class="link" href="./avatar.html">Docs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- side-list bar -->
+    <div class="aside-container">
+        <aside class="aside-nav">
+            <ul class="list-item-non-bullet border-right">
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="/introduction.html">Introduction</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./avatar.html">Avatar</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./alert.html">Alert</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./badge.html">Badge</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./button.html">Button</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link aside-active-item" href="./card.html">Card</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./image.html">Images</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./input.html">Input</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./list.html">Lists</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./navigation.html">Navigation</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./modal.html">Modal</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./rating.html">Rating</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./utilities.html">Text Utilities</a>
+                </li>
+                <li class="navbar-vertical-item">
+                    <a class="aside-link" href="./toast.html">Toast</a>
+                </li>
+            </ul>
+        </aside>
+
+
+        <!-- main-section -->
+        <main class="avatar-main">
+            <h1 class="avatar-heading">Card</h1>
+            <p class="avatar-text">
+                Cards are surfaces that display content and actions on a single topic.
+                They should be easy to scan for relevant and actionable information. Elements, like text and images,
+                should be placed on them in a way that clearly indicates hierarchy.
+            </p>
+            <div class="main-container">
+                <h1>Cards with Badges</h1>
+                <h2>Usage</h2>
+                <div class="avatar-container">
+                    <div class="card-vertical flex-items">
+                        <div class="image-container badge-container">
+                            <img class="img-responsive card-img" src="../assets/chair.jpg" alt="">
+                            <span class="badge bg-primary">#1Bestseller</span>
+                        </div>
+                        <div class="text-container">
+                            <h4 class="heading-primary">Easy Laptop Chair</h4>
+                            <p class="sub-heading">Ships in 3-4 days</p>
+                            <h2>$80</h3>
+                                <div class="buttons">
+                                    <button type="button">Save</button>
+                                    <button type="button">Buy</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="iframe-container">
+                    <iframe class="iframe card-badge-frame" title="myFrame"
+                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-container%2520badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522img-responsive%2520card-img%2522%2520src%253D%2522..%252Fassets%252Fchair.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-primary%2522%253E%25231Bestseller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522heading-primary%2522%253EEasy%2520Laptop%2520Chair%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sub-heading%2522%253EShips%2520in%25203-4%2520days%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%252480%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2509%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%253ESave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <!-- Card with Dismiss -->
+                <h2>Card with Dismiss</h1>
+                    <div class="avatar-container alert-box">
+                        <div class="card-vertical flex-items">
+                            <button class="button-close">X</button>
+                            <div class="image-container badge-container">
+                                <img class="img-responsive card-img" src="../assets/chair.jpg" alt="">
+                                <span class="badge bg-primary">#1Bestseller</span>
+                            </div>
+                            <div class="text-container">
+                                <h4 class="heading-primary">Easy Laptop Chair</h4>
+                                <p class="sub-heading">Ships in 3-4 days</p>
+                                <h2>$80</h3>
+                                    <div class="buttons">
+                                        <button type="button">Save</button>
+                                        <button type="button">Buy</button>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe class="iframe card-dismiss-frame" title="myFrame"
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-vertical%2520flex-items%2522%253E%250A%2509%2520%253Cbutton%2520class%253D%2522button-close%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-container%2520badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520class%253D%2522img-responsive%2520card-img%2522%2520src%253D%2522..%252Fassets%252Fchair.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-primary%2522%253E%25231Bestseller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522heading-primary%2522%253EEasy%2520Laptop%2520Chair%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sub-heading%2522%253EShips%2520in%25203-4%2520days%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%252480%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%2509%2509%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%253ESave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- Cards with text overlay -->
+                    <h2>Cards with text overlay</h2>
+                    <div class="avatar-container">
+                        <div class="card-vertical flex-items">
+                            <div class="overlay-container">
+                                <div class="image-container badge-container">
+                                    <img class="img-responsive card-img" src="../assets/chair.jpg" alt="">
+                                    <span class="badge bg-primary">#1Bestseller</span>
+                                </div>
+                                <div class="text-container">
+                                    <h4 class="heading-primary">Easy Laptop Chair</h4>
+                                    <p class="sub-heading">Ships in 3-4 days</p>
+                                    <h2>$80</h3>
+                                        <div class="buttons">
+                                            <button type="button">Save</button>
+                                            <button type="button">Buy</button>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="overlay-text">
+                                <h2>Out of Stock</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe class="iframe card-text-overlay-frame" title="myFrame"
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card-vertical%2520flex-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-container%2520badge-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img-responsive%2520card-img%2522%2520src%253D%2522..%252Fassets%252Fchair.jpg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2520bg-primary%2522%253E%25231Bestseller%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%2520class%253D%2522heading-primary%2522%253EEasy%2520Laptop%2520Chair%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522sub-heading%2522%253EShips%2520in%25203-4%2520days%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%252480%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%253ESave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EOut%2520of%2520Stock%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- Text only cards -->
+                    <h2>Text only cards</h2>
+
+                    <div class="avatar-container">
+                        <div class="center3">
+                            <div class="container3-3">
+                                <div class="card">
+                                    <h1 class="head2-2">Our Changing Planet</h1>
+                                    <h2 class="head3-2">by kurt Wagner</h2>
+                                </div>
+                                <div class="card2-text">
+                                    <h4>Visit ten places on our planet that are undergoing the biggest changes today.
+                                    </h4>
+                                </div>
+                                <!-- </div> -->
+                                <div class="footer">
+                                    <ul class="container3">
+                                        <li class="hover-content"><a href="#">READ</a></li>
+                                        <li class="hover-content"><a href="#">BOOKMARK</a></li>
+                                        <li class="hover-icon"><img src="../assets/baseline_favorite.png" alt="like">
+                                        </li>
+                                        <li class="hover-icon"><img src="../assets/share_black.png" alt="share"></li>
+                                        <li class="hover-icon"><img src="../assets/baseline_more.png" alt="lsit"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe class="iframe card-text-frame" title="myFrame"
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522center3%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container3-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522head2-2%2522%253EOur%2520Changing%2520Planet%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522head3-2%2522%253Eby%2520kurt%2520Wagner%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card2-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EVisit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522container3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522hover-content%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EREAD%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522hover-content%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EBOOKMARK%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522hover-icon%2522%253E%253Cimg%2520src%253D%2522..%252Fassets%252Fbaseline_favorite.png%2522%2520alt%253D%2522like%2522%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522hover-icon%2522%253E%253Cimg%2520src%253D%2522..%252Fassets%252Fshare_black.png%2522%2520alt%253D%2522share%2522%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522hover-icon%2522%253E%253Cimg%2520src%253D%2522..%252Fassets%252Fbaseline_more.png%2522%2520alt%253D%2522lsit%2522%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    <!-- Horizontal Card -->
+                    <h2>Horizontal Card</h2>
+                    <div class="avatar-container">
+                        <div class="center3">
+                            <div class="container">
+                                <div class="img_container">
+                                    <img class="img1" src="../assets/img1.jpg" alt="place-img">
+                                    <div class="card">
+                                        <h2 class="head2">Our Changing Planet</h2>
+                                        <h3 class="head3">by kurt Wagner</h3>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <ul class="container3">
+                                        <li class="hover-content"><a href="#">READ</a></li>
+                                        <li class="hover-content"><a href="#">BOOKMARK</a></li>
+                                        <li class="hover-icon"><img src="../assets/baseline_favorite.png" alt="like">
+                                        </li>
+                                        <li class="hover-icon"><img src="../assets/share_black.png" alt="share"></li>
+                                        <li class="hover-icon"><img src="../assets/baseline_more.png" alt="lsit"></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe class="iframe card-text-frame" title="myFrame"
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522center3%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img1%2522%2520src%253D%2522..%252Fassets%252Fimg1.jpg%2522%2520alt%253D%2522place-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522head2%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522head3%2522%253Eby%2520kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522container3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522hover-content%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EREAD%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522hover-content%2522%253E%253Ca%2520href%253D%2522%2523%2522%253EBOOKMARK%253C%252Fa%253E%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522hover-icon%2522%253E%253Cimg%2520src%253D%2522..%252Fassets%252Fbaseline_favorite.png%2522alt%253D%2522like%2522%253E%250A%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522hover-icon%2522%253E%253Cimg%2520src%253D%2522..%252Fassets%252Fshare_black.png%2522%2520alt%253D%2522share%2522%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522hover-icon%2522%253E%253Cimg%2520src%253D%2522..%252Fassets%252Fbaseline_more.png%2522%2520alt%253D%2522lsit%2522%253E%253C%252Fli%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <!-- Vertical Card -->
+                    <h2>Vertical Card</h2>
+                    <div class="avatar-container">
+                        <div class="center3">
+                            <div class="container2">
+                                <div class="img_container2">
+                                    <img class="img2" src="../assets/img2.jpg" alt="place-img">
+                                    <div class="card">
+                                        <h2 class="head2-2">Our Changing Planet</h2>
+                                        <h3 class="head3-2">by kurt Wagner</h3>
+                                    </div>
+                                    <div class="card2-text">
+                                        Visit ten places on our planet that are undergoing the biggest changes today.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe class="iframe vertical-card-frame" title="myFrame"
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522center3%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522img_container2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522img2%2522%2520src%253D%2522..%252Fassets%252Fimg2.jpg%2522%2520alt%253D%2522place-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522head2-2%2522%253EOur%2520Changing%2520Planet%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522head3-2%2522%253Eby%2520kurt%2520Wagner%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card2-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Visit%2520ten%2520places%2520on%2520our%2520planet%2520that%2520are%2520undergoing%2520the%2520biggest%2520changes%2520today.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                    <!-- Footer -->
+                    <footer>
+                        <div class="prev">
+                            <i class="fas fa-angle-left"></i>
+                            <a href="./button.html">Button</a></div>
+                        <div class="next"><a href="./image.html">Image</a>
+                            <i class="fas fa-angle-right"></i>
+                        </div>
+                    </footer>
+            </div>
+        </main>
+</body>
+
+</html>
