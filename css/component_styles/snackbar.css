@@ -17,20 +17,19 @@
     visibility: hidden;
 }
 
-.container p {
+.snackbar-para {
     margin-right: auto;
     color: var(--secondary-color);
 }
 
-.container button {
-    /* color: var(--btn-color); */
+.btn-sanckbar {
     background-color: transparent;
     border: none;
     margin-right: 1rem;
     font-weight: bold;
 }
 
-.exit i {
+.exit-i {
     color: var(--secondary-color);
 }
 
