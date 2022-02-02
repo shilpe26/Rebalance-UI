@@ -1,0 +1,40 @@
+.list-container {
+    display: flex;
+    margin-right: 5.5rem;
+}
+
+/* Simple list */
+.list-spaced {
+    padding: 1.5rem 1.5rem;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    max-width: 400px;
+    list-style-type: none;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-left: 1.5rem;
+}
+
+.list-frame {
+    height: 35rem;
+}
+
+/* Stacked List */
+.list-stacked {
+    padding: 1.5rem 1.5rem;
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    margin: 8px;
+    max-width: 400px;
+    font-size: 1.3rem;
+    text-align: center;
+    list-style-type: none;
+}
+
+.stack-list-frame {
+    height: 33rem;
+}
