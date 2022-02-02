@@ -1,32 +1,24 @@
 /* side-list bar css */
 .aside-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 20% auto; 
 }
 
 .aside-nav {
-    padding: 2.5rem;
-    width: 16%;
     font-size: 2rem;
-    height: 40rem;
+    height: 100vh;
     overflow-y: auto;
+    scrollbar-width: none;
     background-color: var(--hover-color);
 }
-
-.aside-nav::-webkit-scrollbar {
+::-webkit-scrollbar{
     display: none;
 }
-
-.aside-nav {
-    scrollbar-width: none;
-}
-
 .aside-link.aside-active-item {
     color: var(--primary-color);
 }
 
 .aside-link {
-    font-size: 2rem;
     color: var(--text-color);
     box-sizing: border-box;
     padding: 0.5rem;
@@ -45,17 +37,19 @@ a {
 .navbar-vertical-item {
     text-align: left;
     margin: 1rem;
-    font-size: 1.1rem;
 }
 
 .list-item-non-bullet {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
 }
 
-.border-right {
+/* .border-right {
     width: 11rem;
     padding: 2.5rem;
-}
+} */
 
 /* avatar-main css */
 .avatar-main {
@@ -64,8 +58,8 @@ a {
     justify-content: flex-start;
     flex-grow: 1;
     padding: 5rem;
-    margin-top: -2rem;
     width: 70%;
+    margin: auto;
 }
 
 .avatar-heading {
@@ -92,7 +86,7 @@ a {
 
 .avatar-text {
     font-size: 1.8rem;
-    padding: 1rem;
+    padding: 1rem 0;
     width: 100%;
 }
 

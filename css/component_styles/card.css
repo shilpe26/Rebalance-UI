@@ -82,25 +82,25 @@
     color: var(--secondary-color);
 }
 
-.card-badge-frame {
+.card-badge-frame{
     height: 53rem;
 }
 
 /* Card with Dismiss */
-.button-close {
-    border: none;
-    width: 4%;
-    height: 8%;
-    position: absolute;
-    opacity: 0.7;
-    cursor: pointer;
-    z-index: 1;
-    outline: none;
-    right: 31%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .button-close {
+      border: none;
+      width: 4%;
+      height: 8%;
+      position: absolute;
+      opacity: 0.7;
+      cursor: pointer;
+      z-index: 1;
+      outline: none;
+      right: 31%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 }
 
 .card-dismiss-frame {
@@ -121,7 +121,7 @@
 
 .overlay-container {
     opacity: 0.3;
-}
+} 
 
 .card-text-overlay-frame {
     height: 65rem;
@@ -219,7 +219,7 @@ a {
     color: var(--card-text-color);
 }
 
-.card-text-frame {
+.card-text-frame{
     height: 70rem;
 }
 
@@ -264,6 +264,6 @@ a {
     color: var(--text-color);
 }
 
-.vertical-card-frame {
+.vertical-card-frame{
     height: 50rem;
 }

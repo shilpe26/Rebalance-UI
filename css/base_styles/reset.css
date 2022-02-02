@@ -8,6 +8,7 @@ body {
 h2{
     font-size: 2.5rem;
 }
+
 :root{
     --primary-color: #6976D9;
     --secondary-color: #fff ;
@@ -41,5 +42,7 @@ h2{
     --alert-danger-hover: #f5c6cb;
     --alert-warning: #fff3cd;
     --alert-warning-hover: #ffeeba;
-
+    --primary-snackbar-color: #333333;
+    --btn-snackbar-baseline: #6e14ef;
+    --btn-snackbar-hover: #414141;
 }

@@ -10,9 +10,9 @@
 
 /* Round Image */
 .round-img{
-    height: 15rem;
-    width: 15rem;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    margin: 38px;
+    margin: 10px;
     object-fit: cover;
 }
