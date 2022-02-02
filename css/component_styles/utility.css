@@ -1,0 +1,35 @@
+.utility-container {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.heading-primary {
+    color: var(--btn-primary-color);
+    font-size: 3rem;
+}
+
+.heading-secondary {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-top: 0px;
+}
+
+.small-text {
+    font-size: 1.5rem;
+}
+
+.gray-text {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.center {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 13px;
+}
+.utility-frame{
+    height: 33rem;
+}
