@@ -1,0 +1,60 @@
+.container {
+    background-color: var(--primary-snackbar-color);
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    width: 30%;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 3rem;
+    box-shadow: 0 0 5px var(--primary-snackbar-color);
+    z-index: 999;
+    visibility: hidden;
+}
+
+.container p {
+    margin-right: auto;
+    color: var(--secondary-color);
+}
+
+.container button {
+    /* color: var(--btn-color); */
+    background-color: transparent;
+    border: none;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.exit i {
+    color: var(--secondary-color);
+}
+
+.exit:hover {
+    background-color: var(--btn-snackbar-hover);
+}
+
+.exit {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.btn {
+    background-color: var(--btn-snackbar-baseline);
+    color: var(--secondary-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.btn-right {
+    align-self: flex-end;
+}
+.snackbar-frame{
+    height: 38rem;
+}
