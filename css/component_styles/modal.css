@@ -1,0 +1,94 @@
+#myBtn {
+    padding: 1.1rem;
+    background-color: var(--modal-bg);
+    border: 0.1rem solid var(--btn-snackbar-hover);
+    border-radius: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 0.13rem;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    opacity: 0.79;
+}
+
+.content p {
+    color: var(--text-color);
+}
+
+.content button {
+    color: var(--bestseller-badge);
+    border: none;
+    padding: 1rem;
+    margin-left: 2rem;
+    background-color: var(--secondary-color);
+}
+
+.content button:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.dialog-content {
+    display: flex;
+    margin-left: -3rem;
+}
+
+.dialog-list {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal1 {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: var(--secondary-color);
+    margin: 12rem 32rem;
+    padding: 2rem;
+    width: 22rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+/* The Close Button */
+.close {
+    color: var(--text-color);
+    float: right;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-frame {
+    height: 55rem;
+}
