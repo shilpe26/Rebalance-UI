@@ -6,9 +6,11 @@ body {
     margin: auto;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
-
+h3{
+    font-size: 2.3rem;
+}
 :root{
     --primary-color: #6976D9;
     --secondary-color: #fff ;

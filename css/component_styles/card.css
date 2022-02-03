@@ -124,7 +124,7 @@
 } 
 
 .card-text-overlay-frame {
-    height: 65rem;
+    height: 66rem;
 }
 
 /* Text on Card */
@@ -220,7 +220,7 @@ a {
 }
 
 .card-text-frame{
-    height: 70rem;
+    height: 72rem;
 }
 
 /* Horizontal Card */
@@ -237,6 +237,9 @@ a {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+}
+.card-hori-frame{
+    height: 77rem;
 }
 
 /* Vertical Card */
@@ -265,5 +268,5 @@ a {
 }
 
 .vertical-card-frame{
-    height: 50rem;
+    height: 54rem;
 }
