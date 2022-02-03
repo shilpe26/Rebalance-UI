@@ -216,6 +216,27 @@ a {
     height: 1.25em;
     background: blue;
 }
+/* Examples */
+.example-center{
+    border-radius: 4px;
+    background-color: var(--hover-color);
+    padding: 2rem;
+    font-size: 2.5rem;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.divider{
+    height: 3rem;
+}
+.btn-color{
+    background-color: var(--hover-aside);
+    color: black;
+    border-radius: 9px;
+}
+.btn-color:hover{
+    background-color: var(--alert-hover);
+}
 
 /* Footer */
 .next,
