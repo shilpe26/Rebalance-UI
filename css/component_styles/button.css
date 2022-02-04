@@ -85,7 +85,7 @@
 }
 
 .simple-btn-frame {
-    height: 31rem;
+    height: 33rem;
 }
 
 /* Link Button */
@@ -99,7 +99,7 @@
 }
 
 .link-btn-frame {
-    height: 21rem;
+    height: 23rem;
 }
 
 /* Icon Button */
@@ -118,7 +118,7 @@
 }
 
 .icon-btn-frame {
-    height: 36rem;
+    height: 38rem;
 }
 
 /* Floating Point Button */
@@ -140,5 +140,5 @@
 }
 
 .float-btn-frame {
-    height: 21rem;
+    height: 22rem;
 }
