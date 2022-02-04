@@ -83,7 +83,7 @@
 }
 
 .card-badge-frame{
-    height: 53rem;
+    height: 55rem;
 }
 
 /* Card with Dismiss */
@@ -104,7 +104,7 @@
 }
 
 .card-dismiss-frame {
-    height: 55rem;
+    height: 57rem;
 }
 
 .overlay-text {
@@ -124,7 +124,7 @@
 } 
 
 .card-text-overlay-frame {
-    height: 66rem;
+    height: 68rem;
 }
 
 /* Text on Card */
@@ -220,7 +220,7 @@ a {
 }
 
 .card-text-frame{
-    height: 72rem;
+    height: 74rem;
 }
 
 /* Horizontal Card */
@@ -239,7 +239,7 @@ a {
     background-size: cover;
 }
 .card-hori-frame{
-    height: 77rem;
+    height: 79rem;
 }
 
 /* Vertical Card */
@@ -268,5 +268,5 @@ a {
 }
 
 .vertical-card-frame{
-    height: 54rem;
+    height: 56rem;
 }
