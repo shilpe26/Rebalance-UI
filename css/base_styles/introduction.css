@@ -216,6 +216,10 @@ a {
     height: 1.25em;
     background: blue;
 }
+/* Iframe */
+.guide-frame{
+    height: 28rem;
+}
 /* Examples */
 .example-center{
     border-radius: 4px;
