@@ -1,4 +1,4 @@
-<strong>Rebalance - UI</strong>
+<h1><strong>Rebalance - UI</strong></h1>
 
 Rebalance-UI is an open source styling framework, which helps Developers to use best styles and components, by using pre-defined classnames. Rebalance-UI helps you to quickly build your Dream Project, by focusing much on Functionality, because we take care of your Designs.
 
