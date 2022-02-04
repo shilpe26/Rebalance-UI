@@ -44,14 +44,17 @@
     border-radius: 50%;
 }
 
-.btn {
+.btn-baseline {
     background-color: var(--btn-snackbar-baseline);
     color: var(--secondary-color);
     border-radius: 0.5rem;
     padding: 1rem;
     cursor: pointer;
 }
-
+.btn-baseline:hover{
+    background-color: var(--hover-color);
+    color : black;
+}
 .btn-right {
     align-self: flex-end;
 }
