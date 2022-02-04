@@ -1,4 +1,4 @@
-.container {
+.container-sanckbar {
     background-color: var(--primary-snackbar-color);
     border-radius: 0.5rem;
     font-size: 1.5rem;
@@ -17,13 +17,12 @@
     visibility: hidden;
 }
 
-.container p {
+.container-sanckbar p {
     margin-right: auto;
     color: var(--secondary-color);
 }
 
-.container button {
-    /* color: var(--btn-color); */
+.container-sanckbar button {
     background-color: transparent;
     border: none;
     margin-right: 1rem;
