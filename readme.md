@@ -22,3 +22,7 @@ HOME PAGE⬇️
 
 
 ❇️Similarly for all the components, you can choose your one.🌟
+
+<strong>If you find it useeful, then do like it ⭐ by showing your love💗 </strong>
+
+
