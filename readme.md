@@ -20,5 +20,24 @@ HOME PAGE⬇️
 
 ![avatar](https://user-images.githubusercontent.com/56014170/152547446-85981170-3f03-4024-be03-4ab30b435184.gif)
 
+<strong>Components provided by Rebalance-UI</strong> 👇
+
+    Avatar
+    Alert
+    Badge
+    Button
+    Card
+    Image
+    Input
+    Text-Utilities
+    Lists
+    Navigation
+    Modal
+    Snackbar
+
 
 ❇️Similarly for all the components, you can choose your one.🌟
+
+<strong>If you find it useful, then do like it ⭐ by showing your love💗 </strong>
+
+
