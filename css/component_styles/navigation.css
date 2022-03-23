@@ -42,6 +42,66 @@
 .nav__link:hover {
     background-color: var(--primary-hover);
 }
-.nav-frame{
+
+.nav-frame {
     height: 70rem;
+}
+
+/* Navigation Submenus */
+.navbar {
+    overflow: hidden;
+    background-color: var(--alert-primary);
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: var(--primary-snackbar-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: var(--primary-snackbar-color);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover,
+.subnav:hover .subnavbtn {
+    background-color: var(--primary-hover);
+}
+
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 32.8%;
+    background-color: var(--primary-hover);
+    width: 56%;
+    z-index: 1;
+}
+
+.subnav-content a {
+    float: left;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.subnav-content a:hover {
+    background-color: var(--hover-color);
+    color: var(--primary-snackbar-color);
+}
+
+.subnav:hover .subnav-content {
+    display: block;
 }
