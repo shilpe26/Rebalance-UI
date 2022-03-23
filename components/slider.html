@@ -8,14 +8,16 @@
     <!-- Icon link -->
     <link rel="icon" href="../assets/icon.png">
     <!-- css style links -->
+
     <link rel="stylesheet" href="../all_component.css">
 
     <!-- title -->
-    <title>Grid</title>
+    <title>Slider</title>
 
     <!-- Font Awesome link -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
         integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+
 </head>
 
 <body>
@@ -53,7 +55,7 @@
                     <a class="aside-link" href="./card.html">Card</a>
                 </li>
                 <li class="navbar-vertical-item">
-                    <a class="aside-link" href="./image.html">Images</a>
+                    <a class="aside-link" href="./card.html">Images</a>
                 </li>
                 <li class="navbar-vertical-item">
                     <a class="aside-link" href="./input.html">Input</a>
@@ -74,7 +76,7 @@
                     <a class="aside-link" href="./snackbar.html">Snackbar</a>
                 </li>
                 <li class="navbar-vertical-item">
-                    <a class="aside-link aside-active-item" href="./grid.html">Grid</a>
+                    <a class="aside-link" href="./grid.html">Grid</a>
                 </li>
                 <li class="navbar-vertical-item">
                     <a class="aside-link aside-active-item" href="./slider.html">Slider</a>
@@ -85,56 +87,43 @@
 
         <!-- main-section -->
         <main class="avatar-main">
-            <h1 class="avatar-heading">Grid</h1>
+            <h1 class="avatar-heading">Slider</h1>
             <p class="avatar-text">
-                A grid is a set of intersecting horizontal and vertical lines defining columns and rows. Elements can be
-                placed onto the grid within these column and row lines. </p>
+                Snackbars are often used as a tooltips/popups to show a message at the bottom of the screen. Click on
+                the button to show the snackbar. It will disappear after 5 seconds.
+            </p>
             <div class="main-container">
-                <h2>2-column Grid</h2>
                 <h3>Usage</h3>
                 <div class="avatar-container">
-                    <div class="wrapper">
-                        <div class="wrapper-text">One</div>
-                        <div class="wrapper-text">Two</div>
-                    </div>
+                    <input type="range" name="price-range" id="price-range" min="0" max="600" step="50"
+                        list="tickmarks" />
+                    <datalist id="tickmarks">
+                        <option value="0" label="0"></option>
+                        <option value="100"></option>
+                        <option value="200"></option>
+                        <option value="300"></option>
+                        <option value="400"></option>
+                        <option value="500"></option>
+                        <option value="600" label="600"></option>
+                    </datalist>
                 </div>
                 <div class="iframe-container">
-                    <iframe class="iframe grid-frame" title="myFrame"
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=485&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=16px&ph=20px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522wrapper%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper-text%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper-text%2522%253ETwo%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
+                    <iframe class="iframe slider-frame" title="myFrame"
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=485&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=16px&ph=20px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522price-range%2522%2520id%253D%2522price-range%2522%2520min%253D%25220%2522%2520max%253D%2522600%2522%2520step%253D%252250%2522%2520list%253D%2522tickmarks%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdatalist%2520id%253D%2522tickmarks%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25220%2522%2520label%253D%25220%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522100%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522200%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522300%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522400%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522500%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522600%2522%2520label%253D%2522600%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdatalist%253E"
+                    sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
-
-                <h2>3-column Grid</h2>
-                <h3>Usage</h3>
-                <div class="avatar-container">
-                    <div class="wrapper2">
-                        <div class="wrapper-text">One</div>
-                        <div class="wrapper-text">Two</div>
-                        <div class="wrapper-text">Three</div>
-                    </div>
-                </div>
-                <div class="iframe-container">
-                    <iframe class="iframe grid-frame" title="myFrame"
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=485&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=16px&ph=20px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522wrapper2%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper-text%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper-text%2522%253ETwo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522wrapper-text%2522%253EThree%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
-                    </iframe>
-
-                </div>
-
+                <!-- Footer -->
+                <footer>
+                    <div class="prev">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="./grid.html">Grid</a></div>
+                    <!-- <div class="next"><a href="">Alert</a>
+                        <i class="fas fa-angle-right"></i>
+                    </div> -->
+                </footer>
             </div>
-
-            <!-- Footer -->
-            <footer>
-                <div class="prev">
-                    <i class="fas fa-angle-left"></i>
-                    <a href="./button.html">Button</a></div>
-                <div class="next"><a href="./image.html">Image</a>
-                    <i class="fas fa-angle-right"></i>
-                </div>
-            </footer>
-    </div>
-    </main>
+        </main>
 </body>
 
 </html>
