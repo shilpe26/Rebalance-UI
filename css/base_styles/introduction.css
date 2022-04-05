@@ -7,8 +7,7 @@
 .aside-nav {
     font-size: 2rem;
     height: 100vh;
-    overflow-y: auto;
-    scrollbar-width: none;
+    overflow: auto;
     background-color: var(--hover-color);
 }
 ::-webkit-scrollbar{

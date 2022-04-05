@@ -124,14 +124,11 @@
 /* Floating Point Button */
 
 .floating-btn {
-    width: 9rem;
-    height: 9rem;
+    height: 7rem;
     background-color: var(--primary-color);
     border-radius: 50%;
     box-shadow: 0 6px 10px 0 #666;
-    font-size: 3rem;
-    line-height: 6.1rem;
-    transition: all 0.1s ease-in-out;
+    line-height: 5.1rem;
 }
 
 .floating-btn:hover {

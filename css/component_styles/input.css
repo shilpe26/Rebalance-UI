@@ -37,9 +37,12 @@ input[type=text] {
     color: var(--danger-color);
 }
 
-.input-group.err input{
+.input-group.err input {
     border: 1px solid var(--danger-color);
-}
+    padding: 1rem;
+    width: 100%;
+    border-radius: 2px;
+  }
 
 .input-group.err input:focus{
     border: 1px solid var(--danger-hover);

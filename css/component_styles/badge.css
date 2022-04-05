@@ -18,16 +18,19 @@
 /* Blue Badge */
 .badge .blue-badge {
     background-color: var(--primary-color);
+    left: 4rem;
 }
 
 /* Green Badge */
 .badge .green-badge {
     background-color: var(--success-color);
+    left: 4rem;
 }
 
 /* Orange Badge */
 .badge .orange-badge {
     background-color: var(--warning-color);
+    left: 4rem;
 }
 
 /* Pink Badge */
