@@ -1,0 +1,25 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+.wrapper-text {
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--alert-hover);
+    padding: 1em;
+    color: var(--card-text-color);
+    font-size: 1.5rem;
+    text-align: center; 
+}
+.grid-frame{
+    height: 20rem;
+}
+.wrapper2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+  }
+  
