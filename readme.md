@@ -34,6 +34,9 @@ HOME PAGE⬇️
     Navigation
     Modal
     Snackbar
+    Grid
+    Rating
+    Slider
 
 
 ❇️Similarly for all the components, you can choose your one.🌟
