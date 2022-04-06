@@ -1,19 +1,22 @@
 /* side-list bar css */
 .aside-container {
     display: grid;
-    grid-template-columns: 20% auto; 
+    grid-template-columns: 20% auto;
 }
 
 .aside-nav {
     font-size: 2rem;
-    height: 100vh;
+    height: 90vh;
     overflow: auto;
-
     background-color: var(--hover-color);
+    position: sticky;
+    top: 0;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     display: none;
 }
+
 .aside-link.aside-active-item {
     color: var(--primary-color);
 }
@@ -46,10 +49,6 @@ a {
     row-gap: 2px;
 }
 
-/* .border-right {
-    width: 11rem;
-    padding: 2.5rem;
-} */
 
 /* avatar-main css */
 .avatar-main {
@@ -216,29 +215,34 @@ a {
     height: 1.25em;
     background: blue;
 }
+
 /* Iframe */
-.guide-frame{
+.guide-frame {
     height: 28rem;
 }
+
 /* Examples */
-.example-center{
+.example-center {
     border-radius: 4px;
     background-color: var(--hover-color);
     padding: 2rem;
     font-size: 2.5rem;
     display: flex;
-align-items: center;
-justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
-.divider{
+
+.divider {
     height: 3rem;
 }
-.btn-color{
+
+.btn-color {
     background-color: var(--hover-aside);
     color: black;
     border-radius: 9px;
 }
-.btn-color:hover{
+
+.btn-color:hover {
     background-color: var(--alert-hover);
 }
 
