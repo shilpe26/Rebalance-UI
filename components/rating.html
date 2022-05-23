@@ -97,11 +97,11 @@
                     <h3>Usage</h3>
                     <div class="avatar-container">
                         <div class="stars">
-                            <i class="fas fa-star arrivals-stars"></i>
-                            <i class="fas fa-star arrivals-stars"></i>
-                            <i class="fas fa-star arrivals-stars"></i>
-                            <i class="fas fa-star arrivals-stars"></i>
                             <i class="fas fa-star-half-alt arrivals-stars"></i>
+                            <i class="fas fa-star arrivals-stars"></i>
+                            <i class="fas fa-star arrivals-stars"></i>
+                            <i class="fas fa-star arrivals-stars"></i>
+                            <i class="fas fa-star arrivals-stars"></i>
                         </div>
                     </div>
                     <div class="iframe-container">
@@ -109,7 +109,48 @@
                             src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=485&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=16px&ph=20px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522stars%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520arrivals-stars%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520arrivals-stars%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520arrivals-stars%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520arrivals-stars%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star-half-alt%2520arrivals-%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520stars%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
                             sandbox="allow-scripts allow-same-origin">
                         </iframe>
+                    </div>
 
+                    <h3>Live Rating</h3>
+                    <div class="avatar-container">
+                        <div class="stars">
+                            <input type="radio" id="star1" name="rating-input" />
+
+                            <label for="star1">
+                                <i class="fas fa-star" title="Excellent"></i>
+                            </label>
+
+                            <input type="radio" id="star2" name="rating-input" />
+
+                            <label for="star2">
+                                <i class="fas fa-star" title="Good"></i>
+                            </label>
+
+                            <input type="radio" id="star3" name="rating-input" />
+
+                            <label for="star3">
+                                <i class="fas fa-star" title="OK"></i>
+                            </label>
+
+                            <input type="radio" id="star4" name="rating-input" />
+
+                            <label for="star4">
+                                <i class="fas fa-star" title="Poor"></i>
+                            </label>
+
+                            <input type="radio" id="star5" name="rating-input" />
+                            <label for="star5">
+                                <i class="fas fa-star" title="Very Bad"></i>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="iframe-container">
+                        <iframe class="iframe rating-frame" title="myFrame"
+                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=485&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=16px&ph=20px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522stars%2522%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522star1%2522%2520name%253D%2522rating-input%2522%2520%252F%253E%250A%2509%253Clabel%2520for%253D%2522star1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%2520title%253D%2522Excellent%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522star2%2522%2520name%253D%2522rating-input%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522star2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2509%2509%253Ci%2520class%253D%2522fas%2520fa-star%2522%2520title%253D%2522Good%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2509%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522star3%2522%2520name%253D%2522rating-input%2522%2520%252F%253E%250A%2509%253Clabel%2520for%253D%2522star3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%2520title%253D%2522OK%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2509%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522star4%2522%2520name%253D%2522rating-input%2522%2520%252F%253E%250A%2509%2520%253Clabel%2520for%253D%2522star4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%2520title%253D%2522Poor%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%2509%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522star5%2522%2520name%253D%2522rating-input%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522star5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%2520title%253D%2522Very%2520Bad%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+                            style="width: 485px; height: 787px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
                     </div>
                     <!-- Footer -->
                     <footer>

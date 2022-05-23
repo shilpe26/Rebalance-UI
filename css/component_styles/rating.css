@@ -2,6 +2,27 @@
     font-size: 2rem;
     color: var(--warning-color);
 }
-.rating-frame{
+
+.rating-frame {
     height: 30rem;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.stars label {
+    font-size: 2rem;
+    color: var(--alert-primary);
+    cursor: pointer;
+}
+
+.stars input {
+    display: none;
+}
+
+.stars label:hover,
+.stars label:hover~label {
+    color: #ffb3009c;
 }
