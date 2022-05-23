@@ -6,9 +6,11 @@
 
 .aside-nav {
     font-size: 2rem;
-    height: 100vh;
+    height: 90vh;
     overflow: auto;
     background-color: var(--hover-color);
+    position: sticky;
+    top: 0;
 }
 
 ::-webkit-scrollbar {
@@ -47,6 +49,10 @@ a {
     row-gap: 2px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ab8c17be7dc4daaefb6c0acce53d4f30c4e9120e
 /* avatar-main css */
 .avatar-main {
     display: flex;

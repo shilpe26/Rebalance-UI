@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../all_component.css">
 
     <!-- title -->
-    <title>Text Utility</title>
+    <title>Slider</title>
 
     <!-- Font Awesome link -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
@@ -61,7 +61,7 @@
                     <a class="aside-link" href="./input.html">Input</a>
                 </li>
                 <li class="navbar-vertical-item">
-                    <a class="aside-link aside-active-item" href="./text_utility.html">Text Utilities</a>
+                    <a class="aside-link" href="./text_utility.html">Text Utilities</a>
                 </li>
                 <li class="navbar-vertical-item">
                     <a class="aside-link" href="./list.html">Lists</a>
@@ -79,7 +79,7 @@
                     <a class="aside-link" href="./grid.html">Grid</a>
                 </li>
                 <li class="navbar-vertical-item">
-                    <a class="aside-link" href="./slider.html">Slider</a>
+                    <a class="aside-link aside-active-item" href="./slider.html">Slider</a>
                 </li>
                 <li class="navbar-vertical-item">
                     <a class="aside-link" href="./rating.html">Rating</a>
@@ -90,40 +90,41 @@
 
         <!-- main-section -->
         <main class="avatar-main">
-            <h1 class="avatar-heading">Text Utility</h1>
+            <h1 class="avatar-heading">Slider</h1>
             <p class="avatar-text">
-                Text utilities are used for text alignment, styles and overflow things.
-            </p>
+                A slider is a set of frames in a sequence that can be traversed respectively. </p>
             <div class="main-container">
-                <h2>Usage</h2>
+                <h3>Usage</h3>
                 <div class="avatar-container">
-                    <div class="utility-container">
-                        <h3 class="heading-primary">Primary Heading</h3>
-                        <h3 class="heading-secondary">Secondary Heading</h3>
-                        <div class="small-text">Small text</div>
-                        <div class="gray-text">Gray Text</div>
-                        <div class="center">Center text</div>
-                    </div>
+                    <input type="range" name="price-range" id="price-range" min="0" max="600" step="50"
+                        list="tickmarks" />
+                    <datalist id="tickmarks">
+                        <option value="0" label="0"></option>
+                        <option value="100"></option>
+                        <option value="200"></option>
+                        <option value="300"></option>
+                        <option value="400"></option>
+                        <option value="500"></option>
+                        <option value="600" label="600"></option>
+                    </datalist>
                 </div>
                 <div class="iframe-container">
-                    <iframe class="iframe utility-frame" title="myFrame"
-                        src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522utility-container%2522%253E%250A%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522heading-primary%2522%253EPrimary%2520Heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522heading-secondary%2522%253ESecondary%2520Heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-text%2522%253ESmall%2520text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522gray-text%2522%253EGray%2520Text%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522center%2522%253ECenter%2520text%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-                        sandbox="allow-scripts allow-same-origin">
+                    <iframe class="iframe slider-frame" title="myFrame"
+                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=material&wt=none&l=auto&width=485&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=16px&ph=20px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522range%2522%2520name%253D%2522price-range%2522%2520id%253D%2522price-range%2522%2520min%253D%25220%2522%2520max%253D%2522600%2522%2520step%253D%252250%2522%2520list%253D%2522tickmarks%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdatalist%2520id%253D%2522tickmarks%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%25220%2522%2520label%253D%25220%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522100%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522200%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522300%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522400%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522500%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Coption%2520value%253D%2522600%2522%2520label%253D%2522600%2522%253E%253C%252Foption%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdatalist%253E"
+                    sandbox="allow-scripts allow-same-origin">
                     </iframe>
                 </div>
-
                 <!-- Footer -->
                 <footer>
                     <div class="prev">
                         <i class="fas fa-angle-left"></i>
-                        <a href="./image.html">Input</a></div>
-                    <div class="next"><a href="">List</a>
+                        <a href="./grid.html">Grid</a></div>
+                    <div class="next"><a href="./rating.html">Rating</a>
                         <i class="fas fa-angle-right"></i>
                     </div>
                 </footer>
             </div>
         </main>
-        
 </body>
 
 </html>
