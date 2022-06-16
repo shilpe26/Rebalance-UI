@@ -1,3 +1,4 @@
+@import url(../base_styles//utility.css);
 /* Card with Badges */
 
 .card-vertical {
@@ -89,8 +90,6 @@
 /* Card with Dismiss */
     .button-close {
       border: none;
-      width: 4%;
-      height: 8%;
       position: absolute;
       opacity: 0.7;
       cursor: pointer;
