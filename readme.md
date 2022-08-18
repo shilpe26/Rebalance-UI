@@ -29,16 +29,16 @@ HOME PAGE⬇️
     Badge
     Button
     Card
+    Grid
     Image
     Input
-    Text-Utilities
     Lists
-    Navigation
     Modal
-    Snackbar
-    Grid
+    Navigation
     Rating
     Slider
+    Snackbar
+    Text-Utilities
 
 
 ❇️Similarly for all the components, you can choose your one.🌟
