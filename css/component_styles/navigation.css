@@ -52,12 +52,13 @@
     overflow: hidden;
     background-color: var(--alert-primary);
 }
+
 .navbar a {
     float: left;
     font-size: 16px;
     color: var(--primary-snackbar-color);
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 6px;
     text-decoration: none;
 }
 
